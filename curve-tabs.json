@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "curve.tabs",
+  "name": "Curve Tabs",
+  "author": "Noah Helms (@haon-v2)",
+  "summary": "Slim tabs follow the top-right corner. Scroll the rail, drag tabs to reorder, and keep Search\u2019s native browsing and sleeping-tab behavior.",
+  "tabLayout": "edgeRail",
+  "rail": {
+    "cornerRadius": 80,
+    "tabLength": 210,
+    "gap": 12
+  }
+}
