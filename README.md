@@ -17,9 +17,13 @@ One JSON appearance manifest: `curve-tabs.json`. It selects the host’s generic
 
 Scroll over the rail to reach additional tabs, drag to reorder, and click × to close. Use ⌘T for a new tab and ⌘L for the address field. Disable or remove this mod in the same Settings page; loaded pages remain open.
 
+## Optional sidebar
+
+With loader **0.2.1 or newer**, enable Curve Tabs and open **Settings → Appearance → Show sidebar with curved tabs**. Turn it on to keep Search’s resizable sidebar beside the rail, or off to use curved tabs alone. The choice is saved; the tabs and open webpages are shared between the two views. Your existing Curve Tabs JSON does not need to be replaced.
+
 ## Compatibility and scope
 
-Requires appearance API 1 with the `edgeRail` capability. The package is supported by loader 0.1.x and 0.2.0; it was tested unchanged with the loader based on Search 1.0.3. This is not a WebExtension, Zen Mod, or replacement browser. The renderer’s current limitations are documented in the loader’s API guide.
+Requires appearance API 1 with the `edgeRail` capability. The package is supported by loader 0.1.x and 0.2.x; it was tested unchanged with the loader based on Search 1.0.3. This is not a WebExtension, Zen Mod, or replacement browser. The renderer’s current limitations are documented in the loader’s API guide.
 
 ### Updates
 
