@@ -19,6 +19,12 @@ Scroll over the rail to reach additional tabs, drag to reorder, and click × to 
 
 ## Compatibility and scope
 
-Requires appearance API 1 with the `edgeRail` capability. Version 0.1.0 of the loader supports it. This is not a WebExtension, Zen Mod, or replacement browser. The renderer’s current limitations are documented in the loader’s API guide.
+Requires appearance API 1 with the `edgeRail` capability. The package is supported by loader 0.1.x and 0.2.0; it was tested unchanged with the loader based on Search 1.0.3. This is not a WebExtension, Zen Mod, or replacement browser. The renderer’s current limitations are documented in the loader’s API guide.
+
+### Updates
+
+Update the **separate loader app**, not this JSON file, to receive Search improvements while keeping the curved rail. Starting with loader 0.2.0, Settings → About checks compatible loader releases. Older 0.1.x previews require one manual upgrade. Quit and replace **Search Mod Preview.app**; the installed Curve Tabs package and preview profile remain in place.
+
+The loader’s workflow checks future stable Search releases and publishes only after integration and compatibility tests pass. Future changes can still require a fix; universal compatibility is not guaranteed. See the [loader update policy](https://github.com/haon-v2/search-appearance-mods/blob/codex/appearance-mod-loader/docs/UPDATING.md). Installing an official Search update directly does not add appearance-mod support.
 
 The package is MIT licensed; see [LICENSE](LICENSE). Search’s code and license remain with its upstream project and the separate loader fork. Installing this optional mod gives no ownership of Search’s name or branding.
